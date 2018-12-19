@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9bbe955-9408-480f-be7f-a2b7ad3bfcd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/util/Namespace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9bbe955-9408-480f-be7f-a2b7ad3bfcd3" name="Default" comment="使用SqlSession测试查询数据">
       <change beforePath="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis-review-1/target/" />
@@ -68,8 +66,8 @@
       <file leaf-file-name="MyBatisAppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
+            <state relative-caret-position="925">
+              <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -447,7 +445,7 @@
       <updated>1545191737463</updated>
       <workItem from="1545191743531" duration="1769000" />
       <workItem from="1545200331943" duration="11000" />
-      <workItem from="1545200369987" duration="5516000" />
+      <workItem from="1545200369987" duration="5912000" />
     </task>
     <task id="LOCAL-00001" summary="更改类名">
       <created>1545200570642</created>
@@ -489,9 +487,12 @@
     <history-entry file="MyBatisAppTest_test_03 - 2018.12.19 at 16h 29m 02s.xml">
       <configuration name="MyBatisAppTest.test_03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyBatisAppTest_test_03 - 2018.12.19 at 16h 40m 05s.xml">
+      <configuration name="MyBatisAppTest.test_03" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7296000" />
+    <option name="totallyTimeSpent" value="7692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -508,7 +509,7 @@
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.13739946" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.3286517" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49932975" weight="0.29535866" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="2" sideWeight="0.49932975" visible="true" weight="0.29535866" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,7 +520,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="1" visible="true" weight="0.39662448" />
+      <window_info anchor="bottom" id="Debug" order="1" weight="0.39662448" />
       <window_info id="Favorites" order="5" sideWeight="0.5009488" side_tool="true" weight="0.16756032" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -673,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
+        <state relative-caret-position="925">
+          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
