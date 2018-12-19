@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugs-IDEA">
+    <excludeFilterFiles>
+      <filter file="G:/开发软件/tools/IntelliJ IDEA 2018/IDEA_plugin/FindBugsExcludeFilter_V1.0.xml" enabled="true" />
+    </excludeFilterFiles>
+  </component>
+</project>
