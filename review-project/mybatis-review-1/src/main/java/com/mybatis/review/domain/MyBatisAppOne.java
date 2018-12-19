@@ -1,4 +1,4 @@
-package com.mybatis.review;
+package com.mybatis.review.domain;
 
 /**
  *<p> Description: 描述信息 </p>
