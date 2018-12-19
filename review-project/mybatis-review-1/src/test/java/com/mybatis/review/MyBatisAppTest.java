@@ -1,6 +1,8 @@
 package com.mybatis.review;
 
+import com.mybatis.review.dao.EmployeeDao;
 import com.mybatis.review.entity.Employee;
+import com.mybatis.review.util.Namespace;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -56,21 +58,40 @@ public class MyBatisAppTest
         // 3.关闭会话
         sqlSession.close();
     }
-
+    
     /**
      * 查询列表结果
      * @throws IOException IO异常
      */
     @Test
-    public void test_02() throws IOException {
+    public void test_02() throws IOException
+    {
         // 1.获取SqlSessionFactory工厂对象并开启一个会话
         SqlSession sqlSession = getSqlSessionFactory().openSession();
-
+        
         // 2.通过SqlSession执行查询
         List<Employee> allEmps = sqlSession.selectList("com.mybatis.review.dao.EmployeeDao.queryAllEmps");
         allEmps.forEach(employee -> System.out.println(employee));
-
+        
         // 3.关闭会话
+        sqlSession.close();
+    }
+
+    /**
+     * 接口式编程
+     * @throws IOException IO异常
+     */
+    @Test
+    public void test_03() throws IOException {
+        // 开启会话
+        SqlSession sqlSession = getSqlSessionFactory().openSession();
+
+        // 获取接口对象
+        EmployeeDao employeeDao = sqlSession.getMapper(EmployeeDao.class);
+        List<Employee> employees = employeeDao.queryAllEmps();
+        employees.forEach(employee -> System.out.println(employee));
+
+        // 关闭会话
         sqlSession.close();
     }
 }
