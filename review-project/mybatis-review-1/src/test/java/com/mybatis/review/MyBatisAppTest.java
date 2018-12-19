@@ -95,4 +95,23 @@ public class MyBatisAppTest
         // 关闭会话
         sqlSession.close();
     }
+
+    /**
+     * 动态SQL语句
+     * @throws IOException IO异常
+     */
+    @Test
+    public void test_04() throws IOException
+    {
+        // 开启会话
+        SqlSession sqlSession = getSqlSessionFactory().openSession();
+
+        // 获取接口对象
+        EmployeeDao employeeDao = sqlSession.getMapper(EmployeeDao.class);
+        Employee emp = employeeDao.queryEmpByParam(new Employee(null,"Tom",25,null));
+        System.out.println(emp);
+
+        // 关闭会话
+        sqlSession.close();
+    }
 }

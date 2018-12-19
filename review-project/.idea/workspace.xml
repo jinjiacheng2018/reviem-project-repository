@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9bbe955-9408-480f-be7f-a2b7ad3bfcd3" name="Default" comment="使用SqlSession测试查询数据">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis-review-1/target/" />
@@ -63,23 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyBatisAppTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="357">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,17 +81,17 @@
       <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="187">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Namespace.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/util/Namespace.java">
+      <file leaf-file-name="MyBatisAppTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="375">
+              <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,11 +122,11 @@
         <option value="$PROJECT_DIR$/mybatis-review-1/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/entity/Employee.java" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/AppTest.java" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/util/Namespace.java" />
+        <option value="$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java" />
       </list>
     </option>
@@ -254,6 +245,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -283,18 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisAppTest.test_03">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.review.App" />
-      <module name="mybatis-review-1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.review.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyBatisAppTest.test_04">
     <configuration name="MyBatisAppOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mybatis.review.domain.MyBatisAppOne" />
       <module name="mybatis-review-1" />
@@ -378,6 +359,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="MyBatisAppTest.test_04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-review-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mybatis.review" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.review.MyBatisAppTest" />
+      <option name="METHOD_NAME" value="test_04" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -417,19 +421,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.MyBatisAppOne" />
       <item itemvalue="JUnit.MyBatisAppTest.shouldAnswerWithTrue" />
       <item itemvalue="JUnit.MyBatisAppTest.test_02" />
       <item itemvalue="JUnit.MyBatisAppTest.test_03" />
+      <item itemvalue="JUnit.MyBatisAppTest.test_04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisAppTest.test_04" />
         <item itemvalue="JUnit.MyBatisAppTest.test_03" />
         <item itemvalue="JUnit.MyBatisAppTest.test_02" />
         <item itemvalue="JUnit.MyBatisAppTest.shouldAnswerWithTrue" />
         <item itemvalue="Application.MyBatisAppOne" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +449,7 @@
       <updated>1545191737463</updated>
       <workItem from="1545191743531" duration="1769000" />
       <workItem from="1545200331943" duration="11000" />
-      <workItem from="1545200369987" duration="5912000" />
+      <workItem from="1545200369987" duration="6814000" />
     </task>
     <task id="LOCAL-00001" summary="更改类名">
       <created>1545200570642</created>
@@ -490,43 +494,47 @@
     <history-entry file="MyBatisAppTest_test_03 - 2018.12.19 at 16h 40m 05s.xml">
       <configuration name="MyBatisAppTest.test_03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MyBatisAppTest_test_04 - 2018.12.19 at 17h 01m 04s.xml">
+      <configuration name="MyBatisAppTest.test_04" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7692000" />
+    <option name="totallyTimeSpent" value="8594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32911393" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="1" visible="true" weight="0.13739946" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="7" weight="0.16353887" />
+      <window_info anchor="right" id="Structure" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="1" weight="0.39662448" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3286517" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32911393" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.13739946" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.3286517" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" sideWeight="0.49932975" visible="true" weight="0.29535866" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49932975" weight="0.29535866" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49905124" visible="true" weight="0.230563" />
-      <window_info anchor="right" id="Database" order="7" weight="0.16353887" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32911393" />
-      <window_info anchor="right" id="Structure" order="9" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="1" weight="0.39662448" />
       <window_info id="Favorites" order="5" sideWeight="0.5009488" side_tool="true" weight="0.16756032" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32911393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,23 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/util/Namespace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -672,10 +663,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/main/java/com/mybatis/review/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://34a44345-5cde-4ec0-bdaf-d9bcf11ff173/schema/mydatabase/table/employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-review-1/src/test/java/com/mybatis/review/MyBatisAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+        <state relative-caret-position="375">
+          <caret line="110" column="77" selection-start-line="110" selection-start-column="77" selection-end-line="110" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

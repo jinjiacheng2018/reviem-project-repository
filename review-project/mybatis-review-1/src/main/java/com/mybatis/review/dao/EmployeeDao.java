@@ -23,8 +23,15 @@ public interface EmployeeDao {
 
     /**
      * 通过雇员编号获取雇员对象
-     * @param empId
+     * @param empId 雇员id
      * @return
      */
     Employee queryEmpById(Integer empId);
+
+    /**
+     * 通过雇员筛选获取雇员参数
+     * @param employee 雇员参数对象
+     * @return
+     */
+    Employee queryEmpByParam(Employee employee);
 }
